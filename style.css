@@ -13,3 +13,51 @@
 
 /*Write your CSS rules below!*/
 
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+h1{
+    font-size: 72px;
+}
+h1,h2 {
+    font-family:"oswald","Helvetica Neue";
+    text-align:center;
+    color:#2884c3;
+}
+body{
+    font-size:1.5em;
+    font-family:"Crimson Text", "Arial";
+    line-height:1.5;
+}
+code{
+    color:#CE234C;
+    background-color:lightgray;
+}
+.snippet{
+    background:lightgray;
+}
+#font-practice{
+    color:green;
+    font-family:"arial";
+    font-size:16px;
+    font-style: italic;
+}
+a:link {    /* unvisited link */
+    color:#008000; /*green*/
+    text-decoration: underline;
+}
+a:visited {    /* visited link */
+    color:#000000; /*black*/
+    text-decoration: underline;
+}
+a:hover {    /* mouse over link */
+    color:#FF0000; /* red*/
+    text-decoration: underline;
+}
+a:active {    /* active link */
+    color:#0000FF; /* blue*/
+    text-decoration: underline;
+}
